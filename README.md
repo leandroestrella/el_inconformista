@@ -31,6 +31,7 @@ Hardware:
 - HS-53 Servo
 - SRF02 Ultra sonic range finder
 - LM386 Super MINI Amplifier Board 3V-12V
+- 9 Volt Battery with Battery Clip
 
 Dependencies:
 - VarSpeedServo library (https://github.com/netlabtoolkit/VarSpeedServo) by Philip van Allen
