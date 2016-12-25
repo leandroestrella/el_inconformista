@@ -1,6 +1,6 @@
 # El Inconformista
 
-![interactive sound object picture](https://c2.staticflickr.com/8/7479/27478774315_e879c25c19_b.jpg)
+![interactive sound object picture](https://github.com/leandrostar/el_inconformista/blob/master/inconformista.jpg)
 
 >*[...] Ma non è tanto questo, è il medium di massa in sé. Dal momento in cui qualcuno ci ascolta dal video, ha verso di noi un rapporto da inferiore a superiore che è un rapporto spaventosamente antidemocratico.*
 
