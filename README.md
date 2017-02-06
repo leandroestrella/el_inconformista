@@ -40,6 +40,5 @@ Dependencies:
 - TEA5767 FM radio Module library (http://www.ardumotive.com/how-to-use-the-tea5767-fm-radio-module-en.html) by Vasilakis Michalis
 
 Documentation:
-- Installation: https://vimeo.com/169427165
-- Presentation: https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20_b8ae947dd1d674 [ENG]
-                https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20 [ITA]
+- Installation: https://vimeo.com/169427165 / https://youtu.be/Py2dP_EuIX4
+- Presentation: https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20_b8ae947dd1d674 [ENG] / https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20 [ITA]
