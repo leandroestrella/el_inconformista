@@ -1,37 +1,43 @@
-// ----------LIBRARIES--------------
+/**************************************************************************************
+ * "Ma non è tanto questo, è il medium di massa in sé. Dal momento in cui qualcuno ci *
+ *  ascolta dal video, ha verso di noi un rapporto da inferiore a superiore che è un  *
+ *  rapporto spaventosamente antidemocratico."                                        *
+ *                                                                Pier Paolo Pasolini *
+ * "El Inconformista || The Nonconformist "                                           *
+ *  by Leandro Estrella [https://cargocollective.com/leandroestrella]                 *
+ **************************************************************************************/
+ 
+/* Libraries */
 #include <VarSpeedServo.h>  // include VarSpeedServo library by Philip van Allen
 #include <Wire.h>           // include Wire library by Nicholas Zambetti and James Tichenor
 #include <SRF02.h>          // include SRF02 library by Dirk Grappendorf
 #include <TEA5767.h>        // include TEA5767 FM radio Module library by Vasilakis Michalis
 
-// --------CONSTANTS (won't change)---------------
+/* Constants (won't change) */
 SRF02 sensor (0x70, SRF02_CENTIMETERS);
 TEA5767 Radio;              // Pinout SLC and SDA - Arduino uno pins A5 and A4
-
 const int servoPin = 3;     // the pin number for the servo signal
-
 #define MS 105              // movement speed
 #define NN 18               // number of notes
-
-// notes
+/* notes */
 #define X 35                // contact point angle for servo motor
 #define A 50
 #define B 60
 #define C 90
 #define D 120
 
-//------------ VARIABLES (will change)---------------------
-/*      SERVO    */
+/* Variables (will change) */
+/* Servo */
 VarSpeedServo myservo;            // create servo object to control a servo
 int servoPosition = 50;           // the current angle of the servo.
 
-/*      SRF02    */
+/* SRF02 */
 unsigned long currentMillis = 0;  // stores the value of millis() in each iteration of loop()
 unsigned long nextPrintSRF = 0;   // ...
 int sensorValueSRF = 0;           // variable to store the value coming from the sensor
 int sensorValueSRFPrev = 0;       // variable to store the previous value of the sensor
 
-/*    TEA5767   */
+/* TEA5767 */
 double old_frequency;
 double frequency;
 int search_mode = 0;
@@ -52,7 +58,6 @@ void loop() {
   // Notice that none of the action happens in loop() apart from reading
   // millis() it just calls the functions that have the action code
   currentMillis = millis();
-
   sensorSense();              //  starts srf02 sensor loop
   fmRadio();                  //  starts tea5767 fm radio loop
   servoSong();                //  starts servo protest song loop
