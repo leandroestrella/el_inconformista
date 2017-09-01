@@ -42,3 +42,4 @@ Dependencies:
 Documentation:
 - Installation: https://vimeo.com/169427165 / https://youtu.be/Py2dP_EuIX4
 - Presentation: https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20_b8ae947dd1d674 [ENG] / https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20 [ITA]
+- Development: https://flic.kr/s/aHsm4aBXuT
