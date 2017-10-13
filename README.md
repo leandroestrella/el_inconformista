@@ -4,7 +4,7 @@
 
 >*[...] Ma non è tanto questo, è il medium di massa in sé. Dal momento in cui qualcuno ci ascolta dal video, ha verso di noi un rapporto da inferiore a superiore che è un rapporto spaventosamente antidemocratico.*
 
-<p align="right">Pier Paolo Pasolini (interviewed by Enzo Biagi), Terza B Facciamo l'Appello, RAI, 3/11/1971 (http://youtu.be/MxT12xgsKJ0)</p>
+<p align="right">Pier Paolo Pasolini (interviewed by Enzo Biagi), Terza B Facciamo l'Appello, RAI, 3/11/1971 (https://vimeo.com/290826)</p>
 
 ***
 **The installation's general concept is the protest, taking as inspiration the South American Cacerolazo.**
