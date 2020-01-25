@@ -1,13 +1,12 @@
 # El Inconformista
 
-![el inconformista animated gif](https://github.com/leandroestrella/el_inconformista/blob/master/inconformista.gif)
-
 >*[...] Ma non è tanto questo, è il medium di massa in sé. Dal momento in cui qualcuno ci ascolta dal video, ha verso di noi un rapporto da inferiore a superiore che è un rapporto spaventosamente antidemocratico.*
 
 <p align="right">Pier Paolo Pasolini (interviewed by Enzo Biagi), Terza B Facciamo l'Appello, RAI, 3/11/1971 (https://vimeo.com/290826)</p>
 
-***
-**The installation's general concept is the protest, taking as inspiration the South American Cacerolazo.**
+![el inconformista animated gif](https://github.com/leandroestrella/el_inconformista/blob/master/inconformista.gif)
+
+>*The installation's general concept is the protest, taking as inspiration the South American Cacerolazo.*
 
 The interactive work is composed by two sound elements:
 - The authority represented by the radio broadcast;
