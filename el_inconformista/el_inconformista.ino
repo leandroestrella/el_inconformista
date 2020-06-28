@@ -59,42 +59,8 @@ void loop() {
   // millis() it just calls the functions that have the action code
   currentMillis = millis();
   sensorSense();              //  starts srf02 sensor loop
-  fmRadio();                  //  starts tea5767 fm radio loop
   servoSong();                //  starts servo protest song loop
-}
-
-void fmRadio() {
-  int sensorValueFM = sensor.read();
-  unsigned char buf[5];
-  int stereo;
-  int signal_level;
-  double current_freq;
-
-  if (millis() > nextPrintFM) {
-    if (Radio.read_status(buf) == 1) {
-      current_freq =  floor (Radio.frequency_available (buf) / 100000 + .5) / 10;
-      stereo = Radio.stereo(buf);
-      signal_level = Radio.signal_level(buf);
-      Serial.print("FM: ");
-      Serial.print(current_freq);
-      Serial.print(" Signal level: ");
-      Serial.print(signal_level);
-      if (stereo) {
-        Serial.println(" STEREO ");
-      } else {
-        Serial.println(" MONO ");
-      }
-    }
-    if (search_mode == 1) {
-      if (Radio.process_search (buf, search_direction) == 1) {
-        search_mode = 0;
-      }
-    }
-    search_mode = 1;
-    search_direction = TEA5767_SEARCH_DIR_UP;
-    Radio.search_up(buf);
-    nextPrintFM = millis () + 2500;
-  }
+  fmRadio();                  //  starts tea5767 fm radio loop
 }
 
 void sensorSense() {
@@ -155,5 +121,39 @@ void servoSong() {
     } else {
       myservo.detach();
     }
+  }
+}
+
+void fmRadio() {
+  int sensorValueFM = sensor.read();
+  unsigned char buf[5];
+  int stereo;
+  int signal_level;
+  double current_freq;
+
+  if (millis() > nextPrintFM) {
+    if (Radio.read_status(buf) == 1) {
+      current_freq =  floor (Radio.frequency_available (buf) / 100000 + .5) / 10;
+      stereo = Radio.stereo(buf);
+      signal_level = Radio.signal_level(buf);
+      Serial.print("FM: ");
+      Serial.print(current_freq);
+      Serial.print(" Signal level: ");
+      Serial.print(signal_level);
+      if (stereo) {
+        Serial.println(" STEREO ");
+      } else {
+        Serial.println(" MONO ");
+      }
+    }
+    if (search_mode == 1) {
+      if (Radio.process_search (buf, search_direction) == 1) {
+        search_mode = 0;
+      }
+    }
+    search_mode = 1;
+    search_direction = TEA5767_SEARCH_DIR_UP;
+    Radio.search_up(buf);
+    nextPrintFM = millis () + 2500;
   }
 }
