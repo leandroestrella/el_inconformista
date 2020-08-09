@@ -4,7 +4,7 @@
 
 <p align="right">Pier Paolo Pasolini (interviewed by Enzo Biagi), Terza B Facciamo l'Appello, RAI, 3/11/1971 (https://vimeo.com/290826)</p>
 
-![el inconformista animated gif](../images/inconformista.gif?raw=true)
+![el inconformista animated gif](https://github.com/leandroestrella/el_inconformista/blob/master/images/inconformista.gif)
 
 >*The installation's general concept is the protest, taking as inspiration the South American Cacerolazo.*
 
@@ -42,4 +42,4 @@ Links & Documentation:
 - Presentation: https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20_b8ae947dd1d674 [ENG] / https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20 [ITA]
 - Development: https://flic.kr/s/aHsm4aBXuT
 
-![el inconformista schematics](../schematics/inconformista_schematics.png?raw=true)
+![el inconformista schematics](https://github.com/leandroestrella/el_inconformista/blob/master/schematics/inconformista_schematics.png)
