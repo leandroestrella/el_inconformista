@@ -4,7 +4,7 @@
 
 <p align="right">Pier Paolo Pasolini (interviewed by Enzo Biagi), Terza B Facciamo l'Appello, RAI, 3/11/1971 (https://vimeo.com/290826)</p>
 
-![el inconformista animated gif](https://github.com/leandroestrella/el_inconformista/blob/master/inconformista.gif)
+![el inconformista animated gif](https://github.com/leandroestrella/el_inconformista/blob/master/images/inconformista.gif)
 
 >*The installation's general concept is the protest, taking as inspiration the South American Cacerolazo.*
 
@@ -29,16 +29,17 @@ Hardware:
 - TEA5767 FM Radio Breakout Board for Arduino
 - HS-53 Servo
 - SRF02 Ultra sonic range finder
-- LM386 Super MINI Amplifier Board 3V-12V
-- 9 Volt Battery with Battery Clip
+- LM386 Audio Amplifier Module
 
 Dependencies:
-- VarSpeedServo library (https://github.com/netlabtoolkit/VarSpeedServo) by Philip van Allen
 - Wire library (https://www.arduino.cc/en/Reference/Wire) by Nicholas Zambetti and James Tichenor
-- SRF02 library (https://github.com/grappendorf/arduino-framework/tree/master/SRF02) by Dirk Grappendorf
-- TEA5767 FM radio Module library (http://www.ardumotive.com/how-to-use-the-tea5767-fm-radio-module-en.html) by Vasilakis Michalis
+- SRF02 library (https://www.grappendorf.net/arduino-atmel-avr/arduino-libraries/srf02-ultrasonic-distance-sensor.html) by Dirk Grappendorf
+- TEA5767 FM radio Module library (https://github.com/big12boy/TEA5767) by big12boy 
+- VarSpeedServo library (https://github.com/netlabtoolkit/VarSpeedServo) by Philip van Allen
 
-Documentation:
+Links & Documentation:
 - Installation: https://vimeo.com/169427165 / https://youtu.be/Py2dP_EuIX4
 - Presentation: https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20_b8ae947dd1d674 [ENG] / https://issuu.com/leandrostar/docs/leandroestrella_el-inconformista_20 [ITA]
 - Development: https://flic.kr/s/aHsm4aBXuT
+
+![el inconformista schematics](https://github.com/leandroestrella/el_inconformista/blob/master/schematics/inconformista_schematics.png)
